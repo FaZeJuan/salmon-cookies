@@ -1,0 +1,31 @@
+{
+  "name": "salmon-cookies",
+  "version": "1.0.0",
+  "description": "A website for Pat's pet Bakery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaZeJuan/salmon-cookies.git"
+  },
+  "keywords": [
+    "kitten",
+    "dog",
+    "doggo",
+    "treats",
+    "food",
+    "salmon-cookies",
+    "cat",
+    "fish",
+    "FaZeJuan319"
+  ],
+  "author": "FaZeJuan\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C Juan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaZeJuan/salmon-cookies/issues"
+  },
+  "homepage": "https://github.com/FaZeJuan/salmon-cookies#readme"
+}
