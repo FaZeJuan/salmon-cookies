@@ -1,0 +1,59 @@
+*   {
+    box-sizing:border-box;
+}
+
+body{
+    background-color:blue;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#container{
+    width:100%;
+    background-color:black;
+    margin:0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cantarell', sans-serif;
+    color:red
+}
+
+h1 {
+    float:left;
+    padding-left: 16em;
+}
+
+#search {
+    float:left;
+    padding: 1.50em;
+}
+
+#search imput{
+    padding: 0.5em;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#navagation { 
+    background-color:red;
+    
+}
+#navagation ul {
+    list-style:none;
+    padding: 0;
+}
+#navagation li {
+    float: left;
+    padding: 10px 105px;
+    border-right: 1px solid green
+}
+
+#navagation li:hover {
+    background-color:rgb(214, 35, 35);
+    cursor: pointer;
+}
+
