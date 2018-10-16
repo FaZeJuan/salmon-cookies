@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,73 @@
     <link href="normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One|Raleway" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    
+
+    <script id="product-template" type="text-handlebars-v4">
+        <li class="product" data-console="{{console}}" data-categories="{{categories}}" data-brand="{{brand}}">>
+        <img src="images/{{image}}" alt="{{title}}">
+        <h4>{{title}}</h4>
+        <p>{{price}}</p>
+        <a href="#" class="button">learn more</a>
+        </li>
+    </script>
 </head>
+
 <body>
-    <Div id="container">
+    <div id="container">
         <header>
             <div id="logo-search" class="clearfix">
-                <h1>Blaze FaZe Shop</h1>
+                <h1>Game FaZe Shop</h1>
                 <form id="search">
-                    <input type="text" placeholder="Search">    
+                    <input type="text" placeholder="Search">
                     <input type="button" value="Go">
                 </form>
 
             </div>
-            <div id="navagation">
+            <div id="navagation" class="clearfix">
                 <ul>
-                <li>Indica</li>
-                <li>Sativa</li>
-                <li>Hybrid</li>
-                <li>Bonga</li>
-                <li>Pipes</li>
+                    <li>Xbox</li>
+                    <li>Playstation</li>
+                    <li>Nintendo</li>
+                    <li>PC</li>
+                    <li>Mobile</li>
                 </ul>
-
+ 
             </div>
-            <div id="promotions">
-
+            <div id="promotions" class="clearfix">
+                <span class="arrow">&lt;</span>
+                <span class="promo">Free Shipping orders on orders $50 and above using promo code BLAZEJUAN</span>
+                <span class="arrow">&gt;</span>
             </div>
         </header>
-    </Div>
+        <main>
+            <aside>
+                <h3>Categories</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by category--</option>
+                </select>
+                <hr>
+                <h3>Consoles</h3>
+                <select id="console-filter">
+                    <option value="">--Filter by console--</option>
+                </select>
+                <hr>
+                <h3>brand</h3>
+                <select id="brand-filter">
+                    <option value="">--Filter by brand--</option>
+                </select>
+                <hr>
+            </aside>
+            <section>
+                <h3>Top Products</h3>
+                <ul id="product-listings">
+               </ul>
+
+            </section>
+        </main>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/handlebars-v4.0.12.js"></script>
+      <script src="js/products.js"></script>
+      <script src="js/products-constructor.js"></script>
+      <script src="js/brand-filter.js"></script>
 </body>
 </html>
