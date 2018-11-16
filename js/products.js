@@ -23,7 +23,7 @@ var products = [
         title:"Playstation 4 Dead rising 4",
         price: 42.10,
         categories :["zombie game"],
-        console:"",
+        console:"PlayStation",
         brand: "Capcom, Microsoft Studios",
         product_id: "890p"
     },
@@ -32,16 +32,16 @@ var products = [
         title:"Xbox one Black Ops 4",
         price: 42.10,
         categories:["first person"],
-        console:"",
+        console:"Xbox",
         brand: "activision",
         product_id: "yuoi"
     },
     {
         image:"Black-ops-4Ps4.jpg",
-        title:"Playstation 4 Black ops 4",
+        title:"PlayStation 4 Black ops 4",
         price: 42.10,
         categories:["first person"],
-        console:"",
+        console:"PlayStation",
         brand: "activision",
         product_id: "hj,"
     },
@@ -50,7 +50,7 @@ var products = [
         title:"PC Black ops 4",
         price: 42.10,
         categories:["first person"],
-        console:"",
+        console:"pc",
         brand: "activision",
         product_id: "7890"
     },
@@ -59,25 +59,25 @@ var products = [
         title:"Xbox one Grand theft auto 5",
         price: 42.10,
         categories:["3rd person"],
-        console:"",
+        console:"Xbox",
         brand: "Rockstar Games",
         product_id: "2345"
     },
     {
         image:"ps4gta5.jpg",
-        title:"Playstation 4 Grand theft auto 5",
+        title:"PlayStation 4 Grand theft auto 5",
         price: 42.10,
         categories:["3rd person"],
-        console:"",
+        console:"PlayStation",
         brand: "Rockstar Games",
         product_id: "6798"
     },
     {
         image:"dead-rising.jpg",
-        title:"Playstation 4 Red dead Redemption",
+        title:"PlayStation 4 Red dead Redemption",
         price: 42.10,
         categories:["3rd person","free roam game"],
-        console:"",
+        console:"PlayStation",
         brand: "Rockstar Games",
         product_id: "3456"
     },
@@ -86,7 +86,7 @@ var products = [
         title:"Xbox one Red dead redemption",
         price: 42.10,
         categories:["3rd person", "free roam game"],
-        console:"",
+        console:"Xbox",
         brand: "Rockstar Games",
         product_id: "tyuk"
     },
@@ -95,7 +95,7 @@ var products = [
         title:"Fortnite",
         price: 42.10,
         categories:["3rd person", "battle royal"],
-        console:"",
+        console:"pc",
         brand: "Epic games",
         product_id: "wert"
     },
@@ -104,7 +104,7 @@ var products = [
         title:"Nintendo super smash bros ultimate",
         price: 42.10,
         categories:["3rd person", "fighting game"],
-        console:"",
+        console:"Switch",
         brand: "Nintendo",
         product_id: "sdfg"
     },
@@ -113,16 +113,16 @@ var products = [
         title:"Xbox One Dragon ball z fighteres",
         price: 42.10,
         categories:["fighting game"],
-        console:"",
+        console:"Xbox",
         brand: "Arc System Works",
         product_id: "zxcv"
     },
     {
         image:"Playstation 4 DragonBallfighters.jpg",
-        title:"playstation 4 Dragon ball z fighters",
+        title:"playStation 4 Dragon ball z fighters",
         price: 42.10,
         categories:["fighting game"],
-        console:"",
+        console:"PlayStation",
         brand: "Arc System Works",
         product_id: "asdf"
     }

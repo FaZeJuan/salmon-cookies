@@ -11,7 +11,7 @@
     <link href="style.css" rel="stylesheet">
 
     <script id="product-template" type="text-handlebars-v4">
-        <li class="product" data-console="{{console}}" data-categories="{{categories}}" data-brand="{{brand}}">>
+        <li class="product" data-console="{{console}}" data-categories="{{categories}}" data-brand="{{brand}}" data-id="{{product_id}}">
         <img src="images/{{image}}" alt="{{title}}">
         <h4>{{title}}</h4>
         <p>{{price}}</p>
@@ -26,8 +26,8 @@
             <div id="logo-search" class="clearfix">
                 <h1>Game FaZe Shop</h1>
                 <form id="search">
-                    <input type="text" placeholder="Search">
-                    <input type="button" value="Go">
+                    <input type="search" id="lookup" placeholder="Search">
+                    <input type="submit" value="Go">
                 </form>
 
             </div>
@@ -59,7 +59,7 @@
                     <option value="">--Filter by console--</option>
                 </select>
                 <hr>
-                <h3>brand</h3>
+                <h3>Brand</h3>
                 <select id="brand-filter">
                     <option value="">--Filter by brand--</option>
                 </select>
@@ -72,10 +72,14 @@
 
             </section>
         </main>
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/handlebars-v4.0.12.js"></script>
-      <script src="js/products.js"></script>
-      <script src="js/products-constructor.js"></script>
-      <script src="js/brand-filter.js"></script>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/products-constructor.js"></script>
+    <script src="js/brand-filter.js"></script>
+    <script src="js/category-fliter.js"></script>
+    <script src="js/Console-filter.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

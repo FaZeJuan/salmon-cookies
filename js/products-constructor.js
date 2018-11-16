@@ -8,8 +8,8 @@ var Product = function(product){
     this.description = product.description;
     this.brand = product.brand;
     this.categories = product.categories;
-    this.product_id = product.title_id;
-    this.console=product.console;
+    this.product_id = product.product_id;
+    this.console = product.console;
 };
 Product.prototype.toHtml = function(){
     var source = $('#product-template').text();
